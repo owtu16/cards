@@ -1,0 +1,29 @@
+.card{
+    width: 300px;
+    height: 350px;
+    border-radius: 25px;
+    transition: transform .2s;
+}   
+
+.customImage{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background: pink;
+}
+
+.card:hover{
+    -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2); 
+    /* opacity: 0.5; */
+}
+
+.customImage:hover{
+    opacity: 0.4;
+}
+
+.card-image{
+    background: pink;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
